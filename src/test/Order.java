@@ -1,7 +1,7 @@
 package test;
 
 public class Order {
-	private IDataAccess _ida;// ¶¨ÒåÒ»¸öË½ÓĞ±äÁ¿±£´æ³éÏó
+	private IDataAccess _ida;// ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ë½ï¿½Ğ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	public IDataAccess get_ida() {
 		return _ida;
@@ -11,8 +11,11 @@ public class Order {
 		this._ida = _ida;
 	}
 
-	// ÊôĞÔ£¬½ÓÊÜÒÀÀµ
+	// ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public IDataAccess Ida;
+	public void function() {
+		
+	}
 
 	public void Add() {
 		_ida.Add();
