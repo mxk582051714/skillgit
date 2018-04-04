@@ -11,7 +11,6 @@ public class Order {
 		this._ida = _ida;
 	}
 
-	// ���ԣ���������
 	public IDataAccess Ida;
 	public void function() {
 		
