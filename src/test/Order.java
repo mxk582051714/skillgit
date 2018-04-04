@@ -1,7 +1,7 @@
 package test;
 
 public class Order {
-	private IDataAccess _ida;// ����һ��˽�б����������
+	private IDataAccess _ida;
 
 	public IDataAccess get_ida() {
 		return _ida;
